@@ -31,9 +31,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="https://polyca123.github.io/portfolio/">Home</a>
-            <a class="nav-link" href="about.html">About Me</a>
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link active" aria-current="page" href="">Home</a>
+            <a class="nav-link" href="#Me">About Me</a>
+            <a class="nav-link" href="#Projects">Projects</a>
+            <a class="nav-link" href="#Contacts">Contacts</a>
           </div>
         </div>
       </div>
@@ -84,17 +85,17 @@
   <div class="container">
 
     <!-- About Me -->
-      <section class="row about">
+      <section class="row about" id="Me">
         <div class="col-md-7">
           <h2 class="description">About Me</h2>
-          <p class="description">I'm a student currently going to UCI's Coding Bootcamp on my way to becoming a Full-Stack Web-developer Junior.</p>
+          <p class="description">I'm a student currently going to UCI's Coding Bootcamp on my way to becoming a Full-Stack Web-developer Junior. I wanted to become an engineer or a physicitst, but that road didn't quite turned out as planned so then i started to look into coding more. My dream is work for NASA or SpaceX. Going into space is always a dream of mine. I hope to learn a lot about coding and one day build my own AI system to better the world.</p>
         </div>
       </section>
 
     <hr class="divider">
 
     <!-- Projects -->
-      <section class="row about">
+      <section class="row about" id="Projects">
         <div class="col-md-7">
           <h2 class="description">Projects</h2>
         </div>
@@ -144,13 +145,22 @@
     <hr class="divider">
 
     <!-- Contacts -->
-      <section class="row about">
-        <div class="col-md-7">
+      <section class="row " id="Contacts">
+        <div class="col-md-5">
           <h2 class="description">Contacts</h2>
           <p class="description">Email: polyca123@gmail.com</p>
           <p class="description">Git Hub: <a href="https://github.com/polyca123">github.com/polyca123</a></p>
         </div>
       </section>
+      <div class="col-mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="col-mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-secondary px-3 submit">Submit</button>
 
   </div>
 

@@ -3,6 +3,9 @@ body {
 }
 
 .about {
-  margin: 30px;
+  margin: 90px;
 }
 
+.submit {
+  margin: 10px;
+}

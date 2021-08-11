@@ -1,1 +1,2 @@
 # portfolio
+This is my first portfolio i've created, not much on here, but will laways try to make it look better and improve my work. On this portfolio will have a section exaplaning a litle bit about me, the projects I have worked on and at the bottom of the page are my contacts info.
